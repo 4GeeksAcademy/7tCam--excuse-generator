@@ -1,8 +1,6 @@
 /* eslint-disable */
-import "bootstrap";
 import "./style.css";
-import "./assets/img/4geeks.ico";
-
+import "bootstrap";
 window.onload = function() {
   //write your code here
   const $EXCUSA = document.getElementById("excuse");
@@ -26,7 +24,7 @@ window.onload = function() {
     let whatIndex = Math.floor(Math.random() * what.length);
     let whenIndex = Math.floor(Math.random() * when.length);
 
-    return `${who[whoIndex]} ${action[actionIndex]} ${what[whatIndex]} ${when[whenIndex]}`;
+    return `${who[whoIndex]} ${action[actionIndex]} ${what[whatIndex]} ${when[whenIndex]}.`;
     // let pintar = document.getElementById("excuse");
     // pintar.textContent = excuseGenerator();
     // retorna la iterpolacion de indices
